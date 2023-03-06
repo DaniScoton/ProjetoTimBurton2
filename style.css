@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Labrada:wght@100;200;300;400;500&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@500&display=swap');
+
+body{
+ font-family: Labrada , sans-serif;
+ background-color: #03001f;
+}
+
+.header{
+    background-color: #03001f;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+
+#logo{
+    width: 210px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.link{
+    color:  #a6a7a9;
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.link:hover{
+    color: #323e68;
+}
+
+li{
+    list-style: none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.capa{
+    width: 100%;
+    height: 85vh;
+}
+
+.perfil{
+    min-height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #323e68;
+}
+
+#perfil-img{
+    width: 50%;
+    height: 70%;
+    margin-left: 20px;
+}
+
+.conteudo-perfil{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-titulo{
+    width: 100%;
+    color:  #a6a7a9;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.sobre-texto{
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    line-height: 1.5em;
+    width: 75%;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.carreira{
+    min-height: 100vh;
+}
+
+.carreira-titulo{
+    font-size: 60px;
+    color: #a6a7a9;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 2.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.parte-1{
+    width: 45%;
+}
+
+.parte-2{
+    width: 45%
+}
+
+.filmes-div{
+    background-color: #323e68;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filmes-titulo{
+    font-size: 35px;
+    color: #a6a7a9;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+
+.filme-img{
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.filme-img:hover{
+    opacity: 50%;
+}
+
+.livro{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.livro-titulo{
+    font-size: 60px;
+    color: #a6a7a9;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.livro-div{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.livro-img{
+    width: 350px;
+    margin-left: 200px;
+}
+
+.texto-livro{
+    color: #ffffff;
+    width: 80%;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 2.3rem;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #323e68;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-img{
+    width: 120px;
+    margin-top: 18px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px){
+    #logo{
+        display: none;
+    }
+
+    .header{
+        background-color: #03001f;
+        display: flex;
+        justify-content: center;
+        height: 15vh;
+        border: 2px solid red;
+    }
+
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid green;
+        width: 100%;
+        margin:0;
+    }
+
+    .link{
+        margin: 0;
+        font-size: 20px;
+    }
+}
