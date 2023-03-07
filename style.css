@@ -171,7 +171,6 @@ li{
     height: 30px;
     width: 100%;
     margin-bottom: 35px;
-    margin-top: 3rem;
 }
 
 .livro-div{
@@ -194,6 +193,7 @@ li{
     margin-top: 20px;
     line-height: 2.3rem;
     font-size: 20px;
+    text-align: center;
 }
 
 footer{
@@ -235,6 +235,22 @@ footer{
         font-size: 20px;
     }
 
+    .capa{
+        width: 100%;
+        height: 70vh;
+    }    
+
+    .sobre-titulo{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .sobre-texto{
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
     #perfil-img{
         display: none;
     }
@@ -256,6 +272,25 @@ footer{
     
     .parte-2{
         width: 90%
+    }
+    
+    .filmes-titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+    }
+
+    .galeria{
+        align-items: center;
+    }
+
+    .livro-titulo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
 
     .livro-img{
